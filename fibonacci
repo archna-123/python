@@ -1,0 +1,11 @@
+# Input the limit 
+limit = int(input("Enter the number of Fibonacci numbers to generate: "))
+
+# Initialize the first two Fibonacci numbers
+a, b = 0, 1
+
+# Generate and print Fibonacci numbers up to the specified limit
+print("Fibonacci sequence:")
+for i in range(limit):
+    print(a, end=" ")
+    a, b = b, a + b
