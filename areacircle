@@ -1,0 +1,5 @@
+#Radius of circle
+r = 1.1
+#Area of circle
+a = 3.14159*r*r
+print("Area of circle:",a)
